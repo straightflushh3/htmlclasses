@@ -1,0 +1,67 @@
+@font-face{
+    font-family: firs;
+    src: url(Fonts/3d_unicode.ttf)    format("truetype");
+}
+.container{
+    background-color: silver;
+    border: solid 2px black;
+    margin: auto;
+    width:800px;
+    min-height: 100px;
+    padding-bottom: 10px;
+}
+.t1{
+    margin: auto;
+    margin-top: 10px;
+    border: solid 2px black;
+    width: 600px;
+    min-height: 50px;
+    font-family: firs;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
+}
+.sp{
+    font-weight: normal;
+    font-size: 15px;
+    font-style: normal;
+    margin-left: 20px;
+}
+@font-face{
+    font-family: sec;
+    src: url(Fonts/bpg_extrasquare_mtavruli_2009.ttf)  format("truetype");
+}
+.t2{
+    margin: auto;
+    margin-top: 10px;
+    background-color: yellow;
+    border: solid 2px black;
+    width: 600px;
+    min-height: 50px;
+    font-family: sec;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-top: 30px;
+}
+@font-face{
+    font-family: thir;
+    src: url(Fonts/bpg_nuskha_modern.ttf)  format("truetype"); 
+}
+.t3{
+    margin: auto;
+    margin-top: 10px;
+    background-color: red;
+    border: solid 2px black;
+    width: 600px;
+    min-height: 50px;
+    font-family: thir;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-top: 30px;
+}
